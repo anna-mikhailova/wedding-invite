@@ -114,7 +114,7 @@ export default function RSVP() {
                   Спасибо!
                 </h3>
                 <p style={{ fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: '0.85rem', color: 'var(--color-primary)', opacity: 0.7 }}>
-                  Мы ждём вас на нашем празднике
+                  Мы ждём тебя на нашем празднике
                 </p>
               </motion.div>
             ) : (
