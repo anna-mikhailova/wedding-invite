@@ -1,1 +1,23 @@
+@font-face {
+  font-family: 'KatherinePlus';
+  src: url('/fonts/katherine_plus.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 @import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'Cormorant Garamond', sans-serif;
+}
+
+:root {
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'Cormorant Garamond', sans-serif;
+  --font-script: 'KatherinePlus', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
