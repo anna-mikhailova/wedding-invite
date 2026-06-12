@@ -37,7 +37,7 @@ export default function Hero() {
               top: '50%',
               left: '50%',
               transform: 'translate(-50%, -50%)',
-              width: '125%',
+              width: '130%',
               height: 'auto',
               aspectRatio: '380 / 422',
               pointerEvents: 'none',
