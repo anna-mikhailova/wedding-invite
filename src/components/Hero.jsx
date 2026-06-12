@@ -19,7 +19,7 @@ export default function Hero() {
             position: 'relative',
             width: '52vw',
             maxWidth: '300px',
-            aspectRatio: '154.76 / 180.7',
+            height: 'min(calc(52vw * 180.7 / 154.76), 350.27px)',
             flexShrink: 0,
             marginBottom: '3.5rem',
           }}
@@ -37,8 +37,9 @@ export default function Hero() {
               top: '50%',
               left: '50%',
               transform: 'translate(-50%, -50%)',
-              width: '130%',
+              width: '125%',
               height: 'auto',
+              aspectRatio: '380 / 422',
               pointerEvents: 'none',
             }}
           >
@@ -58,9 +59,9 @@ export default function Hero() {
           style={{
             fontFamily: "var(--font-script)",
             fontWeight: 400,
-            fontSize: 'clamp(2.8rem, 9vw, 5rem)',
+            fontSize: 'clamp(2rem, 6vw, 4rem)',
             color: 'var(--color-primary)',
-            lineHeight: 1,
+            lineHeight: 1.2,
             textAlign: 'center',
             marginBottom: '1rem',
           }}

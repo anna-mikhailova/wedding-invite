@@ -42,13 +42,13 @@ export default function Wishes() {
             }}
           />
 
-          <div style={{ position: 'relative', padding: '3rem 3.5rem', textAlign: 'center' }}>
-            <p style={{ ...sectionLabel, marginBottom: '1.5rem' }}>Пожелание</p>
+          <div style={{ position: 'relative', padding: '0.5rem 1rem', textAlign: 'center' }}>
+            <p style={{ ...sectionLabel }}>Пожелание</p>
             <img
               src={`${BASE}present.png`}
               alt=""
               aria-hidden="true"
-              style={{ width: 140, height: 'auto', margin: '0 auto 1.5rem', display: 'block', pointerEvents: 'none' }}
+              style={{ width: 140, height: 'auto', margin: '0 auto 0', display: 'block', pointerEvents: 'none' }}
             />
             <p style={bodyText}>
               Мы будем рады деньгам в качестве подарка — это поможет нам осуществить наши мечты

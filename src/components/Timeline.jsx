@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 const TIMELINE = [
   { time: '15:00', label: 'Фуршет' },
   { time: '15:30', label: 'Церемония' },
-  { time: '17:00', label: 'Начало банкета' },
+  { time: '17:00', label: 'Банкет' },
   { time: '22:00', label: 'Окончание вечера' },
 ]
 

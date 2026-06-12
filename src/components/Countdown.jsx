@@ -187,7 +187,7 @@ export default function Countdown() {
               <p
                 style={{
                   fontFamily: "var(--font-script)",
-                  fontSize: '2.4rem',
+                  fontSize: '2rem',
                   color: 'var(--color-primary)',
                   lineHeight: 1.2,
                   whiteSpace: 'nowrap',
